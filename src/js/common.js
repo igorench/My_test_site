@@ -5,7 +5,6 @@ $(document).ready(function () {
         $(this).find(".show-default").attr("id", "show-default-" + i);
         $(this).find(".show-on-mouse").attr("id", "show-on-mouse-" + i);
     });
-
     $(".businesses-item").each(function(i){
         // Меняем блок при наведении
         $("#businesses_item-" + i).mouseover(function(){
