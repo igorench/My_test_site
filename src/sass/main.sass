@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  font-family: "Roboto", sans serif
+  font-weight: 400
+  position: relative
+  color: #81858c
+  font-size: 0.9em
+  line-height: 1.2
+  min-width: 320px
+
+#businesses
+  background-color: #fff
+  text-align: center
+  h3
+    text-align: center
+    margin: 3% 0
+
+.businesses-item
+  text-align: center
+  padding: 12% 5%
+  margin: 6% 1% 6% 4%
+  border: 1px solid #dedede
+  border-radius: 10px
+  cursor: url("../img/cursor.svg"), pointer
+  transition: transform 500ms 100ms, background-position 800ms 100ms, box-shadow 500ms linear
+  background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"   width="1296px" height="768px" viewBox="0 0 1296 768" enable-background="new 0 0 1296 768" xml:space="preserve"><g><polygon fill="#8694D1" points="766.6,1.2 -0.2,768 200.7,768 967.5,1.2   "/></g><g><polygon fill="#8694D1" points="1094.8,1.2 328,768 528.9,768 1295.7,1.2   "/></g></svg>')
+  background-size: contain
+  background-position: -200px center
+  background-repeat: no-repeat
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  &:hover
+    transform: scale(1.1)
+    background-position: -60px
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    border-color: #58CFEC
+    transition: 1s
+  &:active
+    transform: scale(1)
+    background-position: 500px
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  h5
+    text-transform: uppercase
+    color: #58CFEC
+    font-weight: 600
+  img
+    width: 25%
+    height: 25%
+    padding-bottom: 12%
+    
+.businesses-wrapper
+  text-align: center
+
+
+.show-on-mouse
+  display: none
+  z-index: 5
+  line-height: 1
+  h6
+    padding-bottom: 2.8%
+    margin: 0
+    text-transform: uppercase
+  span
+    display: inline-block
+    line-height: 1.4
+    font-size: 1em
+    padding: 0 5%
+
+#OurFriends
+  margin: 4%
+
+.OurFriend-slick
+  img
+    padding: 35px
+
+#arrow-left, #arrow-right
+  position: absolute
+  width: 5%
+  height: 5%
+  top: 107%
+
+#arrow-left
+  left: 1.2%
+
+#arrow-right
+  right: 1.2%
+
+
+
+
+
+
